@@ -28,6 +28,7 @@ def do_squats(number):
     except Exception as e:
       pass
 
+# list of domains from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
 domains_by_length = collections.defaultdict(list)
 domains = [line.strip().lower() for line in open(sys.argv[1]).readlines()
            if not line.startswith('#')]
