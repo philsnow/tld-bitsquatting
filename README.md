@@ -18,6 +18,7 @@ _Probably won't be an issue either since `example.bom` is probably going to be m
 Let's look at some more candidates.  The output is `<target TLD>:  <list of bitsquattable TLDs>`.
 
 ```
+% python tld_bitsquat.py tlds-alpha-by-domain.txt
 ac:  ag cc ec as
 ad:  af at al cd id ae
 ae:  au am ee ag ie ad
